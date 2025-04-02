@@ -30,7 +30,7 @@ export const Contact = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-neon-blue" />
-                  <span className="text-gray-300">+91 9586266900</span>
+                  <span className="text-gray-300">+91 9866266900</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="w-5 h-5 text-neon-blue" />
@@ -39,12 +39,12 @@ export const Contact = () => {
                 <div className="flex items-center gap-3">
                   <Linkedin className="w-5 h-5 text-neon-blue" />
                   <a
-                    href="https://www.linkedin.com/in/rithvik-shaga-9a0b431797"
+                    href="https://www.linkedin.com/in/rithvik-shaga-9a0b43177/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-neon-blue"
                   >
-                    linkedin.com/in/rithvik-shaga-9a0b431797
+                    linkedin
                   </a>
                 </div>
               </div>
