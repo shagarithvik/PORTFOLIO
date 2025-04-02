@@ -4,17 +4,23 @@ import { GraduationCap, Calendar } from 'lucide-react';
 export const Education = () => {
   const education = [
     {
-      year: '2020 - Present',
-      institution: 'Sreenidhi Institute of Science and Technology',
-      degree: 'Cyber Security',
-      location: 'HYDERABAD, TELANGANA'
-    },
-    {
-      year: '2020',
-      institution: 'Greenwood High International School',
-      degree: 'Matriculation',
-      location: 'HYDERABAD, TELANGANA'
-    }
+    "year": "2022 - Present",
+    "institution": "Sreenidhi Institute of Science and Technology",
+    "degree": "Cyber Security",
+    "location": "HYDERABAD, TELANGANA"
+  },
+  {
+    "year": "2020 - 2022",
+    "institution": "Pinegrove Junior College",
+    "degree": "Intermediate",
+    "location": "HYDERABAD, TELANGANA"
+  },
+  {
+    "year": "2020",
+    "institution": "Greenwood High International School",
+    "degree": "Matriculation",
+    "location": "HYDERABAD, TELANGANA"
+  }
   ];
 
   return (
