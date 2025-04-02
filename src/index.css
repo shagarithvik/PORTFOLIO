@@ -16,13 +16,9 @@ body {
   @apply relative;
 }
 
+/* Removed the glow effect */
 .neon-border::before {
-  content: '';
-  @apply absolute -inset-0.5 bg-gradient-to-r from-neon-blue via-neon-purple to-neon-green rounded-lg blur opacity-75 transition-opacity duration-300;
-}
-
-.neon-border:hover::before {
-  @apply opacity-100;
+  content: none;
 }
 
 .cyber-grid {
