@@ -54,7 +54,7 @@ export const Hero = () => {
             {[
               { icon: Shield, text: 'Cybersecurity' },
               { icon: Terminal, text: 'Ethical Hacking' },
-              { icon: Database, text: 'AI Development' },
+              { icon: Database, text: 'AI Web Stack' },
               { icon: Lock, text: 'System Security' },
             ].map((item, index) => (
               <div
