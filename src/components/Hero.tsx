@@ -75,7 +75,7 @@ export const Hero = () => {
           >
             <div className="flex space-x-4">
               <a
-                href="https://www.linkedin.com/in/rithvik-shaga-9a0b431797"
+                href="https://www.linkedin.com/in/rithvik-shaga-9a0b43177/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 px-6 py-3 bg-[#0077B5] text-white font-semibold rounded-lg hover:bg-[#0077B5]/90 transition-colors"
@@ -84,7 +84,7 @@ export const Hero = () => {
                 <span>LinkedIn</span>
               </a>
               <a
-                href="https://github.com/rithvikshaga"
+                href="https://github.com/shagarithvik"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 px-6 py-3 bg-[#333] text-white font-semibold rounded-lg hover:bg-[#333]/90 transition-colors"
