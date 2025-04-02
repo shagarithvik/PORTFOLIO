@@ -8,21 +8,27 @@ export const Projects = () => {
       description: 'A robust security solution designed to detect and prevent web application vulnerabilities in real time, leveraging machine learning algorithms and rule-based detection.',
       icon: Shield,
       tech: ['Python', 'Machine Learning', 'Web Security'],
-      duration: '05/2024 - 11/2024'
+      duration: '05/2024 - 11/2024',
+      github: 'https://github.com/shagarithvik/IDS',
+      live: 'https://github.com/shagarithvik/IDS'
     },
     {
       title: 'Learn.AI',
       description: 'An AI-Powered Interactive Learning Platform that enhances online learning engagement using artificial intelligence features that encourage active learning.',
       icon: Brain,
       tech: ['AI/ML', 'Python', 'Web Development'],
-      duration: '02/2025 - 02/2025'
+      duration: '02/2025 - 02/2025',
+      github: 'https://github.com/shagarithvik/hdat2222',
+      live: 'https://learnaihackday2025.netlify.app/'
     },
     {
       title: 'AI Flashcards',
       description: 'Engineered an AI-based flashcard and question generator that enhanced study efficiency and achieved a 40% improvement in learning outcomes.',
       icon: Bot,
       tech: ['AI', 'Python', 'Education Tech'],
-      duration: '12/2024 - 12/2024'
+      duration: '12/2024 - 12/2024',
+      github: 'https://github.com/shagarithvik/flash-flutter-',
+      live: 'https://github.com/shagarithvik/flash-flutter-'
     }
   ];
 
@@ -71,7 +77,7 @@ export const Projects = () => {
                   </span>
                   <div className="flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
                     <a
-                      href="#"
+                      href={project.github}
                       className="p-2 hover:text-neon-blue transition-colors"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -79,7 +85,7 @@ export const Projects = () => {
                       <Github className="w-4 h-4" />
                     </a>
                     <a
-                      href="#"
+                      href={project.live}
                       className="p-2 hover:text-neon-blue transition-colors"
                       target="_blank"
                       rel="noopener noreferrer"
