@@ -15,7 +15,15 @@ export const Skills = () => {
         { name: 'Business Intelligence', level: 70 },
         { name: 'Digital Marketing', level: 65 },
         { name: 'Web Development', level: 75 },
-        { name: 'Android Development', level: 80 }
+        { name: 'Android Development', level: 80 },
+        { name: 'Programming Interfaces (API)', level: 75 },
+        { name: 'Accounting', level: 60 },
+        { name: 'Online Advertising', level: 65 },
+        { name: 'Account Management', level: 70 },
+        { name: 'Business Analysis', level: 75 },
+        { name: 'Organizational Development', level: 70 },
+        { name: 'Web Design', level: 75 },
+        { name: 'HTML Scripting', level: 80 }
       ]
     },
     {
@@ -23,12 +31,15 @@ export const Skills = () => {
       icon: Terminal,
       skills: [
         { name: 'Python', level: 90 },
-        { name: 'HTML/CSS', level: 85 },
+        { name: 'HTML', level: 85 },
+        { name: 'CSS', level: 85 },
         { name: 'PHP', level: 75 },
         { name: 'Android Studio', level: 80 },
         { name: 'Kotlin', level: 70 },
         { name: 'TypeScript', level: 75 },
-        { name: 'Software as a Service (SaaS)', level: 70 }
+        { name: 'Software as a Service (SaaS)', level: 70 },
+        { name: 'WordPress', level: 65 },
+        { name: 'C (Programming Language)', level: 70 }
       ]
     },
     {
