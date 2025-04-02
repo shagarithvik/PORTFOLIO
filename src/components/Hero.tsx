@@ -20,7 +20,7 @@ export const Hero = () => {
             className="mx-auto w-32 h-32 rounded-full overflow-hidden neon-border"
           >
             <img
-              src="https://raw.githubusercontent.com/shagarithvik/rfinal/main/sample-image%20(2).png"
+              src="https://raw.githubusercontent.com/shagarithvik/rfinal/main/1714152661097.jpeg"
               alt="Rithvik Shaga"
               className="w-full h-full object-cover"
             />
